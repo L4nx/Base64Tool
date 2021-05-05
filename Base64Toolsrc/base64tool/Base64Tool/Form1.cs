@@ -29,7 +29,7 @@ namespace WindowsFormsApp5
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string x = richTextBox2.Text;
+            string x = richTextBox1.Text; //sry
             byte[] C = Convert.FromBase64String(x);
             string b = System.Text.Encoding.UTF8.GetString(C);
             richTextBox2.Text = b;
